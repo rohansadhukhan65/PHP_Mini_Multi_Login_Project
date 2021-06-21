@@ -1,0 +1,78 @@
+    *{
+        font-family:monospace !important;
+        font-size: 14px;
+    }
+    body
+    {
+        background-color: #f0b000;
+    }
+    .card
+    {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 24rem;
+
+        padding: 14px;
+        border-radius: 25px;
+        background: #f0b000;
+        box-shadow:  10px 10px 20px #ce9700, -10px -10px 20px #ffc900;
+    }
+    h1{
+        color: white;
+        font-size: 23px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-weight: lighter;
+
+    }
+
+    .info{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    h5{
+        color: white;
+        text-align: left;
+        padding-left: 30px;
+        margin:5px;
+    }
+    .proimg{
+        font-size: 150px;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 34px;
+        border-radius: 50%;
+ 
+    }
+    .logout{
+        text-decoration: none; 
+        color:aliceblue;
+        border: none;
+        background-color: aliceblue;
+        border-radius: 10px;
+        color: #f0b000;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 34px;
+        box-shadow:  10px 10px 20px #ce9700,-10px -10px 20px #ffc900;
+        border-style:  solid;
+        border-color: 6px #c99505;
+            
+    }
+    .logoutbtndiv
+    {
+        text-align: center; 
+        margin-bottom:50px; 
+        padding-top:10px; 
+        width:100%;
+    }
+    span{
+        font-size: 35px !important;
+    }

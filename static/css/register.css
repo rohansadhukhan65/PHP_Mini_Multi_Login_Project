@@ -1,0 +1,81 @@
+    *{
+        font-family:monospace !important;
+        font-size: 14px;
+    }
+    body
+    {
+        background-color: #f0b000;
+    }
+
+    .center
+    {
+        
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white !important;
+        width: 14rem;
+
+
+        border-radius: 34px;
+        background: #f0b000;
+        box-shadow:  10px 10px 20px #ce9700, -10px -10px 20px #ffc900;
+
+
+    }
+
+    .input
+    {
+        background: #7a063959;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+
+        border: none;
+
+        height: 30px;
+        color: white !important;
+        width: 100%;
+    }
+    .input::placeholder
+    {
+        color: white !important;
+        padding-left: 10px;
+        border: none !important;
+    }
+    .input:focus
+    {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .btnreg
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none !important;
+        height: 39px !important;
+        margin-top: 30px;
+    }
+    .btnreg:hover
+    {
+        box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    h2{
+        text-align: center; 
+        font-weight:lighter;
+        font-size: 24px; 
+        color:white; 
+        margin-bottom:50px;
+    }
+    .backto{
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 23px;
+        color: aliceblue;
+        
+    }
